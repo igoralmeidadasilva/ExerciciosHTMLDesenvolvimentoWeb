@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 05 - Exercício 5.08</title>
+</head>
+<body>
+    <h1>Exercício 5.05</h1>
+    <p>Crie um mapeamento para a imagem disponível em <a href="https://tinyurl.com/3bu9ekz3">https://tinyurl.com/3bu9ekz3</a>, de forma que cada região do Brasil aponte para um arquivo HTML com seu nome (norte.html, nordeste.html etc.). Mostre a imagem com 800px de largura./p>
+    <hr>
+    <img src="https://tinyurl.com/3bu9ekz3" alt="Mapa do Brasil" usemap="#mapaBrasil" width="800">
+    <map name="mapaBrasil">
+        <area shape="rect" coords="305, 211, 392, 235" href="regiõesDoBrasil/Norte.html" alt="Região Nordeste">
+        <area shape="rect" coords="598,286, 732, 312" href="regiõesDoBrasil/Nordeste.html" alt="Região Norte">
+        <area shape="rect" coords="510, 523, 625, 546" href="regiõesDoBrasil/Sudeste.html" alt="Região Sudeste">
+        <area shape="rect" coords="409, 658, 461, 677" href="regiõesDoBrasil/Sul.html" alt="Região Sul">
+        <area shape="rect" coords="312, 394, 517, 413" href="regiõesDoBrasil/CentroOeste.html" alt="Região CentroOeste">
+    </map>
+</body>
+</html>

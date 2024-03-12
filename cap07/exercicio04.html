@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 07 - Exercício 7.04</title>
+</head>
+<body>
+    <h1>Exercício 7.04</h1>
+    <p>Crie um formulário HTML com um campo de texto para receber a idade do usuário e um campo de seleção para escolher o gênero (masculino,feminino ou outro). Adicione um botão de envio e utilize o atributo required do elemento input para tornar os camposo brigatórios.</p>
+
+    <form action="form.php" method="post">
+        <label for="idade">Idade</label>
+        <input type="text" name="idade" id="idade" required></input>
+        <br>
+        <label for="genero">Genêro</label>
+        <select name="genero" id="genero" required>
+            <option value=""></option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

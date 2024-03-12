@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 05 - Exercício 5.05</title>
+</head>
+<body>
+    <h1>Exercício 5.05</h1>
+    <p>Crie um elemento picture com duas resoluções diferentes de imagens, uma para telas de até 720px de altura e outra para telas com altura maior que 720px Use nomes de arquivos fictícios.</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="img/cachorro-pequeno.jpg">
+        <source media="(min-width: 720px)" srcset="img/cachorro.jpg">
+        <img src="img/cachorro.jpg" alt="imagem de cachorro" width="100%">
+    </picture>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+Exercício 4.1 
+Crie uma lista de compras de supermercado com pelo menos 5 itens.
+
+Exercício 4.2 Crie uma lista de características de um produto ou serviço oferecido por uma loja virtual qualquer.
+
+Exercício 4.3 Crie uma lista com ao menos 5 redes sociai sem que uma pessoa ou empresa possa estar presente.
+
+Exercício 4.12
+Crie uma tabela que exiba uma programação de 5 eventos para uma conferência. Inclua colunas para o nome do evento, o horário, a localização e adescrição.
+
+Exercício 4.13
+Crie uma tabela com três colunas e três linhas, e mescle a primeira célula das três linhas para criar uma célula que ocupe duas colunas. Adicione conteúdo a cada célula para exibir informações sobre um produto.
